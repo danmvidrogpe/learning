@@ -6,4 +6,4 @@ if word == word.reverse
 else
 	puts "Não é palíndromo" 
 end
-if a = b
+
