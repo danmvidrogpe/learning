@@ -2,11 +2,11 @@
 
 puts "Digite uma frase:"
 phrase = gets.chomp
-words = phrase.split
-words_togheter = words.join
+chars = phrase.split
+char_togheter = chars.join
 
 begin
-	number = Integer(words_togheter)
+	phrase = Integer(char_togheter)
 	puts "Inteiro"
 rescue ArgumentError
 	puts "Não é inteiro"
