@@ -1,15 +1,11 @@
 puts "Digite um email:"
 email = gets.chomp
 verify_com = '.com'
-email_compare = ''
 validation = 0
 
 email.each_char do |char|
 	if (char == '@')
-		email_compare << char
-		if email.include?(email_compare)
-			validation += 1
-		end
+		validation += 1
 	end
 end
 
