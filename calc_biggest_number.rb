@@ -7,7 +7,7 @@ biggest = 0
 
 puts "Digite #{quant} números"
 while position < quant
-	array_num[position] = gets.chomp.to_i
+	array_num[position] = gets.chomp.to_f
 	if array_num[position] > biggest
 		biggest = array_num[position]
 	end
